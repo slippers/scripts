@@ -11,8 +11,8 @@
 #
 
 usage() {
-  echo -e "\n mp3folder2ogg.sh - recursively converts a folder of oggs to mp3s"
-  echo -e "\n\t mp3folder2ogg.sh <ogg folder to convert> <destination> [<mp3 bitrate in kbps>]"
+  echo -e "\n $0 - recursively converts a folder of oggs to mp3s"
+  echo -e "\n\t $0 <ogg folder to convert> <destination> [<mp3 bitrate in kbps>]"
   echo -e "\n\t The name of the source folder and its directory structure"
   echo -e "\n\t are recreated in the destination"
   echo -e "\n sudo apt-get install vorbis-tools easytag libid3-tools libavcodec-extra-53"
